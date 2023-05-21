@@ -1,0 +1,50 @@
+body {
+    background-color: grey;
+    font-family: Tahoma;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    font-weight: bold;
+  }
+  
+  form {
+    outline: 4px solid white;
+    text-align: center;
+  }
+  
+  #submit {
+    background-color: green;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 5em;
+  }
+  
+  .survey-form-labels {
+    display: block;
+    font-weight: bold;
+  }
+  
+  #game-rating {
+    text-align: justify;
+    text-align-last: center;
+  }
+
+  input[type="text"], input[type="email"], input[type="number"] {
+    width: 50%;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 50%;
+    height: 150px;
+  }
