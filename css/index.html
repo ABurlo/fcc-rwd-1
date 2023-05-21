@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Game Review Survey</title>
+    <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body>
+    <main>
+      <h1 id="title">PC Game Review</h1>
+      <p><i>Thank you! We are looking forward to hearing your feedback.</i></p>
+      <form id="survey-form">
+        <section>
+          <label class="survey-form-labels" id="name-label">Name</label><input id="name" type="text" placeholder="Enter your Name" required/><br/>
+          <label class="survey-form-labels" id="email-label">Email</label><input id="email" type="email" placeholder="Enter your Email" required/><br/>
+          <label class="survey-form-labels" id="number-label">Age (Optional)</label><input id="number" type="number" min="13" max="120" placeholder="Enter your Age"/><br/>
+          <hr/>
+          <p id="description">What is your favourite PC Game?</p>
+          <select id="dropdown">
+            <option value="1">Half-Life 2</option>
+            <option value="2">Counter Strike: Source</option>
+            <option value="3">Garry's Mod</option>
+            <option value="4">Portal 2</option>
+            <option value="5">No More Room In Hell</option>
+          </select>
+          <hr/>
+          <p>What would you rate this game overall?</p>
+          <div id="ratings">
+            <input name="rating" type="radio" value="5"/><label>5* - Great</label><br>
+            <input name="rating" type="radio" value="4"/><label>4* - Good</label><br>
+            <input name="rating" type="radio" value="3"/><label>3* - Okay</label><br>
+            <input name="rating" type="radio" value="2"/><label>2* - Bad</label><br>
+            <input name="rating" type="radio" value="1"><label>1* - Terrible</label><br>
+            </div>
+            <hr/>
+        <p>What peripherals do you have? (Check all that apply)</p>
+            <input type="checkbox" value="mouse"/><label>Mouse</label>
+            <input type="checkbox" value="keyboard"/><label>Keyboard</label>
+            <input type="checkbox" value="keyboard"/><label>Controller</label>
+            <input type="checkbox" value="joystick"/><label>Joystick</label><br/>
+            <hr/>
+        <p>Any additional comments?</p>
+            <textarea placeholder="We'd love to hear them!"></textarea>
+        <input type="submit" id="submit"/>
+      </section>
+    </form>
+    </main>
+    <footer>
+      <p>Created by Adam Burlo Bonello (21/05/2023) - <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/">FreeCodeCamp's Responsive Web Design: Build a Survey Form</a></p>
+    </footer>
+  </body>
+</html>
